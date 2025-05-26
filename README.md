@@ -1,50 +1,89 @@
-# Welcome to your Expo app 👋
+# Chefs Canvas
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Chefs Canvas is a React Native app built with Expo that lets chefs manage their restaurant menu with ease. Users can add, remove, and filter dishes by course (starter, main, dessert), and see average prices per course at a glance.
 
-## Get started
+---
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- **Add new dishes** with name, description, course, and price.
+- **Remove dishes** from the menu.
+- **Filter menu items** by course to quickly browse starters, mains, or desserts.
+- **View average prices** for each course on the home screen.
+- Clean, dark-themed UI designed for a great user experience.
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## Screenshots
 
-In the output, you'll find options to open the app in a
+*(Add screenshots here to showcase your app UI)*
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Installation
 
-## Get a fresh project
+### Prerequisites
 
-When you're ready, run:
+- Node.js and npm installed
+- Expo CLI installed globally:  
+  ```bash
+  npm install -g expo-cli
+Git (to clone the repo)
 
-```bash
-npm run reset-project
-```
+Getting Started
+Clone the repository:
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+git clone https://github.com/yourusername/chefs-canvas.git
+cd chefs-canvas
+Install dependencies:
 
-## Learn more
+npm install
+Run the app with Expo:
 
-To learn more about developing your project with Expo, look at the following resources:
+npx expo start
+Follow the instructions in the Expo CLI to open the app on your iOS or Android device (Expo Go app) or on an emulator.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Usage
+Home Screen:
+Displays the menu items and the average prices for starters, mains, and desserts. Navigate to Chef's Menu or Filter Menu from here.
 
-## Join the community
+Chef's Menu:
+Add new dishes by filling out the form (name, description, course, price). Remove existing dishes by tapping "Remove" next to each item.
 
-Join our community of developers creating universal apps.
+Filter Menu:
+Select a course from the dropdown picker to view only dishes in that category.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Project Structure
+App/index.tsx - Main entry point with navigation setup and global state management.
+
+screens/ - Folder containing all screen components:
+
+HomeScreen.tsx
+
+ChefMenuScreen.tsx
+
+FilterMenuScreen.tsx
+
+context/ - (Optional) Context provider for global menu state.
+
+utils/ - Utility functions like average price calculations.
+
+assets/ - Images and other static resources.
+
+Dependencies
+React Native
+
+Expo
+
+React Navigation
+
+@react-native-picker/picker
+
+Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+License
+This project is licensed under the MIT License.
+
+Contact
+Created by Shanton -shantonjohnson98@gmail.com
