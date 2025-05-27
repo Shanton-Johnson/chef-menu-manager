@@ -1,6 +1,6 @@
-# Chefs Canvas
+# Chefs Menu Manager
 
-Chefs Canvas is a React Native app built with Expo that lets chefs manage their restaurant menu with ease. Users can add, remove, and filter dishes by course (starter, main, dessert), and see average prices per course at a glance.
+Chefs Menu Manager is a React Native app built with Expo that lets chefs manage their restaurant menu with ease. Users can add, remove, and filter dishes by course (starter, main, dessert), and see average prices per course at a glance.
 
 ---
 
@@ -33,8 +33,8 @@ Git (to clone the repo)
 Getting Started
 Clone the repository:
 
-git clone https://github.com/yourusername/chefs-canvas.git
-cd chefs-canvas
+git clone https://github.com/yourusername/Chefs-Menu-Manager.git
+cd Chefs-Menu-Manager
 Install dependencies:
 
 npm install
