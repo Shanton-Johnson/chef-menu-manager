@@ -17,6 +17,9 @@ Chefs Menu Manager is a React Native app built with Expo that lets chefs manage 
 ## Screenshots
 
 *(Add screenshots here to showcase your app UI)*
+![IMG-20250715-WA0004](https://github.com/user-attachments/assets/3e955501-649b-475d-a50a-c440386aa377)
+![IMG-20250715-WA0005](https://github.com/user-attachments/assets/e1fbb48d-5f58-4748-a25f-d98f52d1c600)
+![IMG-20250715-WA0006](https://github.com/user-attachments/assets/9bcb1960-db15-4dd8-9294-b005ffc77336)
 
 ---
 
